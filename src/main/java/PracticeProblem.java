@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * File Name: errors.java
  * Author: Mr. Kalisz
