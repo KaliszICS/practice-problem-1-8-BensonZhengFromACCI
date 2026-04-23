@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 class PracticeProblem {
 
-	static Scanner s = new Scanner(System.in);
   	public static void main(String[] args) {
 		
 		q1();
@@ -20,15 +19,16 @@ class PracticeProblem {
   	}
   	public static void q1() {
 		// From input, recieve two integers from the user and add them together.  Output the result.
-		
+		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
-		int num1 = s.nextInt();
+		int num1 = input.nextInt();
 		System.out.print("Input a number: ");
-		int num2 = s.nextInt();
+		int num2 = input.nextInt();
 		System.out.println(num1 + num2);
   	}
 
 	public static void q2() {
+		Scanner s = new Scanner(System.in);
 		// From input recieve two integers.  Output the quotient rounded down.
 		System.out.print("Input a number: ");
 		int num1 = s.nextInt();
@@ -45,6 +45,7 @@ class PracticeProblem {
 	public static void q4() {
 		// From input recieve two numbers (can be decimal fractions).  
 		// Output the first number plus two, then multiplied by the second number.
+		Scanner s = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		double num1 = s.nextDouble();
 		System.out.print("Input a number: ");
